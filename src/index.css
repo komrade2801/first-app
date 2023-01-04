@@ -6,6 +6,17 @@ body {
   ol, ul {
     padding-left: 30px;
   }
+
+  p{
+    margin: 3px 3px;
+  }
+
+  li {
+    display: flex;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding-top: 3px;
+  }
   
   .board-row:after {
     clear: both;
